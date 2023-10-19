@@ -1,0 +1,15 @@
+D:\CTDL\bin\Debug\net6.0\CTDL.exe
+D:\CTDL\bin\Debug\net6.0\CTDL.deps.json
+D:\CTDL\bin\Debug\net6.0\CTDL.runtimeconfig.json
+D:\CTDL\bin\Debug\net6.0\CTDL.dll
+D:\CTDL\bin\Debug\net6.0\CTDL.pdb
+D:\CTDL\obj\Debug\net6.0\CTDL.csproj.AssemblyReference.cache
+D:\CTDL\obj\Debug\net6.0\CTDL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTDL\obj\Debug\net6.0\CTDL.AssemblyInfoInputs.cache
+D:\CTDL\obj\Debug\net6.0\CTDL.AssemblyInfo.cs
+D:\CTDL\obj\Debug\net6.0\CTDL.csproj.CoreCompileInputs.cache
+D:\CTDL\obj\Debug\net6.0\CTDL.dll
+D:\CTDL\obj\Debug\net6.0\refint\CTDL.dll
+D:\CTDL\obj\Debug\net6.0\CTDL.pdb
+D:\CTDL\obj\Debug\net6.0\CTDL.genruntimeconfig.cache
+D:\CTDL\obj\Debug\net6.0\ref\CTDL.dll
