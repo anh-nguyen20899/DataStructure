@@ -11,4 +11,17 @@ public class Duplicate {
         }
         return writer;
     }
+    public int RemoveDuplicatesTwice(int[] nums) {
+        int count = 0;
+        foreach(var i in nums)
+        {
+            if(count<2|| i > nums[count -2])
+            {
+                nums[count] = i;
+                count++;
+            }
+        }
+        return count;
+        
+    }
 }
