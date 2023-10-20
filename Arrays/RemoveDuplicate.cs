@@ -1,13 +1,14 @@
 public class Duplicate {
     public int RemoveDuplicates(int[] nums) {
-        int count = 1;
-        for(var i = 1  ; i<nums.Length; i++)
+        int writer = 1;
+        for(var reader = 1; reader < nums.Length; reader++)
         {
-            if(nums[i]!=nums[i-1]||i==0){
-                nums[count] = nums[i];
-                count++;
+            if(nums[reader] != nums[reader - 1]){
+                nums[writer] = nums[reader];
+                writer++;
             }
+            
         }
-        return count;
+        return writer;
     }
 }
