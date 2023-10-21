@@ -1,15 +1,15 @@
 public class Duplicate {
     public int RemoveDuplicates(int[] nums) {
-        int writer = 1;
-        for(var reader = 1; reader < nums.Length; reader++)
-        {
-            if(nums[reader] != nums[reader - 1]){
-                nums[writer] = nums[reader];
+        int writer = 0;
+        int reader = 0;
+        while( reader < nums.Length) {
+            if(nums[writer] != nums[reader]) {
                 writer++;
+                nums[writer] = nums[reader];
             }
-            
+            reader ++;   
         }
-        return writer;
+        return writer + 1;
     }
     public int RemoveDuplicatesTwice(int[] nums) {
         int count = 0;
